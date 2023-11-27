@@ -20,7 +20,7 @@ def tohex(text):
     return binascii.b2a_hex(text)
 
 def hextoint(data):
-    return int("0x" + data,0)
+    return int(f"0x{data}", 0)
 
 def next_file_entry(f,list):
 
